@@ -1,0 +1,9 @@
+.descricao__texto {
+  font-size: 14px;
+}
+
+@media screen and (min-width:1024px) {
+  .descricao__texto {
+    padding-right: 7em;
+  }
+}

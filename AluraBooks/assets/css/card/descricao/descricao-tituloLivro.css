@@ -1,0 +1,6 @@
+.descricao__titulo-livro{
+  color: var(--azul);
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0.5em 0;
+}

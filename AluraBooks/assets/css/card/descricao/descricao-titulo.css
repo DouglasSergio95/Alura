@@ -1,0 +1,12 @@
+.descricao__titulo {
+  font-weight: 700;
+  color: var(--laranja);
+}
+
+@media screen and (min-width:1728px) {
+  .descricao__titulo {
+    font-size: 32px;
+    margin: .5em 0;
+  }
+
+}

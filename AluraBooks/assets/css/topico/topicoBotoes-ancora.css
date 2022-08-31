@@ -1,0 +1,12 @@
+.topico-botoes__ancora {
+  color: var(--branco);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+@media screen and (min-width:1024px) {
+  .topico-botoes__ancora {
+    font-size: 24px;
+
+  }
+}

@@ -1,0 +1,19 @@
+@import url(cabecalho-menuHamburguer.css);
+@import url(cabecalho-container.css);
+@import url(container-imagem.css);
+@import url(cabecalho-containerBotao.css);
+@import url(cabecalho-titulo.css);
+@import url(cabecalho-containerLogo.css);
+@import url(opcoes/opcoes.css);
+@import url(cabecalho-texto.css);
+@import url(cabecalho-link.css);
+
+
+.cabecalho {
+  background-color: var(--branco);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  align-items: center;
+  position: relative;
+}

@@ -1,0 +1,5 @@
+.cabecalho__container-logo {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 1em;
+}

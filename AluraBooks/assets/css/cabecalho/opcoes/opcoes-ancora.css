@@ -1,0 +1,6 @@
+.opcoes__ancora {
+    font-size: 16px;
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+}

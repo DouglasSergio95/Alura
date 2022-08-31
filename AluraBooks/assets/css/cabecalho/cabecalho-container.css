@@ -1,0 +1,20 @@
+.cabecalho__container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .favorito {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .cabecalho__icones {
+    margin-left: auto;
+  }
+
+  .cabecalho__container {
+    justify-content: flex-end;
+  }
+}

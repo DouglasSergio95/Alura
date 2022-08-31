@@ -1,0 +1,14 @@
+@import url(./carrossel-titulo.css);
+@import url(./swiper/swiper.css);
+
+
+
+
+@media screen and (min-width: 1728px) {
+    .carrossel__divisorDoBox {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 5em;
+    }
+}

@@ -1,0 +1,16 @@
+.novidade__titulo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media screen and (min-width:1024px) {
+  .novidade__titulo {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .novidade__titulo {
+    font-size: 32px;
+  }
+}

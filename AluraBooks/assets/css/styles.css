@@ -1,0 +1,32 @@
+@import url(./cabecalho/cabecalho.css);
+@import url(./menu/menu.css);
+@import url(./banner/banner.css);
+@import url(./carrossel/carrossel.css);
+@import url(./card/card.css);
+@import url(./topico/topico.css);
+@import url(./novidades/novidade.css);
+@import url(./rodape/rodape.css);
+
+:root {
+  --cor-de-fundo: #EBECEE;
+  --branco: #FFFFFF;
+  --laranja: #EB9B00;
+  --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  ;
+  --azul: #002F52;
+  --font-principal: "Poppins";
+  --font-secundaria: "Josefin Sans";
+  --black: #000000;
+  --cinza: #858585;
+  --cinza2: #474646;
+
+
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  font-family: var(--font-principal);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}

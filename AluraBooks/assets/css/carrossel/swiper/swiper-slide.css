@@ -1,0 +1,25 @@
+.swiper-slide img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .swiper-slide img {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .swiper-slide {
+    display: flex;
+    justify-content: top;
+  }
+
+  .swiper-slide img {
+    width: 80%;
+  }
+}

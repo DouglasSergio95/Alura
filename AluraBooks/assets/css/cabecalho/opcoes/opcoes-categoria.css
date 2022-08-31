@@ -1,0 +1,4 @@
+.opcoes__botao:checked~.opcoes__categoria {
+    background: var(--azul-degrade);
+    color: var(--branco);
+}

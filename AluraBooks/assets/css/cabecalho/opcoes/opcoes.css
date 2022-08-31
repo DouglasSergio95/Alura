@@ -1,0 +1,28 @@
+@import url(opcoes-item.css);
+@import url(opcoes-link.css);
+@import url(opcoes-ancora.css);
+@import url(opcoes-categoria.css);
+@import url(opcoes-menuItem.css);
+
+.opcoes,
+.opcoes__botao {
+    display: none;
+}
+
+.opcoes__botao:checked~.lista-menu {
+    display: block;
+    width: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .opcoes {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .opcoes {
+        margin-left: 8em;
+    }
+}

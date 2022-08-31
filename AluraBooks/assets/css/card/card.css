@@ -1,0 +1,30 @@
+@import url(card-botoes.css);
+@import url(card-descricao.css);
+@import url(./descricao/descricao.css);
+
+@import url(./botoes/botoes.css);
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+  align-items: center;
+}
+
+@media screen and (min-width:1024px) {
+  .card {
+    width: 600px;
+    margin: 2em auto;
+  }
+}
+
+@media screen and (min-width:1728px) {
+  .card {
+
+    width: 160pc;
+    margin-right: 2em;
+
+  }
+}

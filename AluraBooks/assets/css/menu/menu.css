@@ -1,0 +1,10 @@
+@import url(lista-menuTitulo.css);
+@import url(lista-menuItem.css);
+@import url(lista-menuAncora.css);
+@import url(lista-menu.css);
+
+.lista-menu__item,
+.lista-menu__titulo {
+  padding: 1em;
+  background-color: var(--branco);
+}

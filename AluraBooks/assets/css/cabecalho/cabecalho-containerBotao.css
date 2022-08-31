@@ -1,0 +1,14 @@
+.cabecalho__container-botao {
+  display: none;
+}
+
+.cabecalho__container-botao:checked~.lista-menu {
+  display: block;
+  width: auto;
+}
+
+@media screen and (min-width:1024px) {
+  .cabecalho__container-botao:checked~.lista-menu {
+    display: none;
+  }
+}
