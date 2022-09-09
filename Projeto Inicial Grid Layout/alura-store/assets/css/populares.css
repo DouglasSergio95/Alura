@@ -1,5 +1,5 @@
 .populares {
-    padding: 3rem 2em;
+    padding: 3rem 0;
 }
 
 .populares__conteudo {
@@ -22,7 +22,7 @@
     margin-right: 1em;
 }
 
-..populares__card:last-child {
+.populares__card:last-child {
     margin-right: 0;
 }
 
