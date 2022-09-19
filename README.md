@@ -1,3 +1,3 @@
 # Alura Projetos  
 
-Todos os projetos feitos pela Alura
+Todos os projetos feitos na Alura
